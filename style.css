@@ -1,0 +1,168 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+/* Header section */
+
+header {
+    position: fixed;
+    display: inline-flex; 
+    height: 70px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    width: 65%;
+   
+}
+
+ header .content {
+     display: inline-flex;
+     align-items: center;
+
+ }
+
+ header img {
+     padding: 10px;
+     height: 50px;
+
+ }
+
+
+ nav li {
+     display: inline-flex;
+     text-decoration: underline;
+     padding: 0px 5px;
+     font-size: 1rem;
+     color: white;
+     background-color: black;
+  
+ }
+
+.main-content {
+ position: relative;
+ top: 3.31rem
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;  
+
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    display:flex;
+    max-width: 100%;
+    height: auto;
+   
+}
+
+/* Banner section image */
+
+#banner {
+    display: flex;
+    align-content: center;
+    background-image: url("./images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    flex-flow: column wrap;
+    align-items: center;  
+   
+}
+
+.bannermission {
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+/* Our-mission-section  */
+
+
+#our-mission {
+    position: relative;
+    top: 1200px
+
+}
+
+#our-mission .content {
+
+}
+
+#our-mission h2 {
+    font-size: 3.125rem;
+}
+
+#our-mission h4 {
+    font-size: 1.15rem;
+}
+
+/*  Tea images section */
+ #tea-images-section {
+     display: flex;
+     width: 1000px;
+     flex-flow: row wrap;
+     justify-content: space-between;
+   
+ }
+
+ .featuredimages .image-container {
+    width: 300px;
+    height: 200px;
+ }
+
+ .featuredimages h3 {
+     margin-top: 10px;
+ }
+
+
+ /* Locations section */
+
+ #locations h2 {
+   font-size: 1.19rem;
+}
+
+ .location-image-section {
+    display: flex;
+    align-content: center;
+    background-image: url("./images/img-locations-background.jpg");
+    width: 1200px;
+    height: 700px;
+    flex-flow: column wrap;
+    align-items: center;  
+   
+}
+ .locationaround-town {
+     display: flex;
+     background-color: black;
+     align-items: center;
+     flex-flow: column;
+     margin: 15px 20px;
+     width: 300px;
+     
+ }
+
+ #locations-section {
+     display: inline-flex;
+     align-items: center;
+     margin-top: 15px;
+   
+ }
+
+ .copyright {
+     padding-left: 20px;
+     text-align: left;
+ }
