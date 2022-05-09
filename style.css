@@ -39,9 +39,13 @@ header {
      text-decoration: underline;
      padding: 0px 5px;
      font-size: 1rem;
-     color: white;
+
      background-color: black;
   
+ }
+
+ #link {
+     color: white;
  }
 
 .main-content {
@@ -98,9 +102,6 @@ header {
 
 }
 
-#our-mission .content {
-
-}
 
 #our-mission h2 {
     font-size: 3.125rem;
