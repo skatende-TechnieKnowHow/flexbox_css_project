@@ -1,11 +1,12 @@
-## Flexbox CSS and HTML: The Tea Cozy Project
+# Flexbox CSS and HTML: The Tea Cozy Project
 
-### Tech stack 
+## Tech stack 
+
 * HTML and CSS
 * Command Line Interface
 * Git and GitHub
 
-This is a static website made with HTML and CSS web development.
+This is a static landing page was made with HTML and CSS web development.
 
 This design specifications is for the Off-Platform Tea Cozy project under the Full-Stack Software Engineer or Front-End Engineer career path.
 
